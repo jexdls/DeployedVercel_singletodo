@@ -17,18 +17,7 @@ html{
 	background-color:$light-blue;
 }
 
-@media(max-width:580px){
-	html{
-		font-size: 15px;
-	}
-	.x_grid_main_note{
-		font-size:1rem;
-	}
-	.x_grid_main_input{
-		font-size:1rem;
-		height:4rem;
-	}
-}
+
 
 #root{
 	background-color:$light-blue;
@@ -125,6 +114,32 @@ button{
 #green-check{
 	font-size:2.5rem;
 	color:$green-check;
+}
+
+
+
+@media(max-width:700px){
+	html{
+		font-size: 15px;
+	}
+	.x_grid_main_note{
+		font-size:1.5rem;
+	}
+	.x_grid_main_input{
+		font-size:1rem;
+		height:3rem;
+	}
+	.x_grid_main_commit{
+		font-size:1.5rem;
+	}
+	#green-check{
+	font-size:2rem;
+	}
+	.x_grid_main_checkbox{
+		height:1.5rem;
+		width: 1.5rem;
+	}
+	
 }
 
 // Import Bootstrap and its default variables
