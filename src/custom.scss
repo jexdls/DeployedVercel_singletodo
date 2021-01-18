@@ -17,6 +17,19 @@ html{
 	background-color:$light-blue;
 }
 
+@media(max-width:580px){
+	html{
+		font-size: 15px;
+	}
+	.x_grid_main_note{
+		font-size:1rem;
+	}
+	.x_grid_main_input{
+		font-size:1rem;
+		height:4rem;
+	}
+}
+
 #root{
 	background-color:$light-blue;
 }
